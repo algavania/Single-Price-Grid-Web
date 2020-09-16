@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+  margin: 60px 50px;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.box-container-two {
+  display: flex;
+  flex-direction: column;
+}
+
+#box-one {
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+#box-one h3 {
+  font-weight: 700;
+  color: hsl(179, 62%, 43%);
+  margin: 20px;
+}
+
+#box-one h4 {
+  font-weight: 700;
+  margin-left: 20px;
+  font-size: 14px;
+  color: hsl(71, 73%, 54%);
+}
+
+#box-one p {
+  margin: 20px;
+  font-size: 12px;
+  color: hsl(179, 62%, 43%);
+  line-height: 1.8em;
+}
+
+#text-one {
+  display: block;
+}
+
+#text-two {
+  display: none;
+}
+
+#text-three {
+  display: none;
+}
+
+#box-two {
+  background-color: hsl(179, 62%, 43%);
+}
+
+#box-two h3 {
+  color: white;
+  font-weight: 700;
+  margin: 20px 20px 15px 20px;
+}
+
+#text-dollar {
+  margin: 0 10px 0 20px;
+  font-weight: 700;
+  color: white;
+  font-size: 25px;
+  float: left;
+}
+
+#text-month {
+  color: hsl(204, 43%, 93%);
+  font-size: 14px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+#text-description {
+  color: hsl(204, 43%, 93%);
+  margin: 0px 20px 20px;
+  font-size: 12px;
+}
+
+#btn-sign-up {
+  background-color: #bfdf32;
+  margin: 0 20px 20px 20px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+#btn-sign-up p {
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+}
+
+#box-three {
+  background-color: #4abebd;
+  border-radius: 0 0 5px 5px;
+}
+
+#box-three h3 {
+  color: white;
+  font-weight: 700;
+  margin: 20px;
+}
+
+#box-three p {
+  margin: 0 70px 20px 20px;
+  color: hsl(204, 43%, 93%);
+  font-size: 12px;
+  line-height: 1.5em;
+}
+
+footer {
+  display: none;
+}
+
+@media only screen and (min-width: 1300px) {
+  #box {
+    width: 35%;
+    margin-top: 200px;
+  }
+
+  #box-one h3 {
+    font-size: 25px;
+    margin: 40px 40px 25px 40px;
+  }
+
+  #box-one h4 {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
+  #text-one {
+    display: none;
+  }
+
+  #box-one #text-two {
+    display: block;
+    font-size: 16px;
+    margin: 20px 40px 0 40px;
+  }
+
+  #box-one #text-three {
+    display: block;
+    font-size: 16px;
+    margin: 0 40px 40px 40px;
+  }
+
+  .box-container-two {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #box-two {
+    width: 50%;
+    border-radius: 0 0 0 5px;
+  }
+
+  #box-two h3 {
+    margin: 40px 40px 15px 40px;
+    font-size: 20px;
+  }
+
+  #text-dollar {
+    margin: 0 10px 0 40px;
+    font-size: 35px;
+  }
+
+  #text-month {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+
+  #text-description {
+    margin: 0px 40px 20px 40px;
+    font-size: 15px;
+  }
+
+  #btn-sign-up {
+    margin: 0 40px 40px 40px;
+  }
+
+  #box-three {
+    width: 50%;
+    border-radius: 0 0 5px 0;
+  }
+
+  #box-three h3 {
+    margin: 40px 40px 20px 40px;
+    font-size: 20px;
+  }
+  
+  #box-three p {
+    margin: 0 70px 40px 40px;
+    color: hsl(204, 43%, 93%);
+    font-size: 14px;
+  }
+}

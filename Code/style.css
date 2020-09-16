@@ -132,7 +132,7 @@ footer {
 
 @media only screen and (min-width: 1300px) {
   #box {
-    width: 35%;
+    width: 40%;
     margin-top: 80px;
   }
 
@@ -152,13 +152,13 @@ footer {
 
   #box-one #text-two {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 20px 40px 0 40px;
   }
 
   #box-one #text-three {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 40px 40px 40px;
   }
 
@@ -188,12 +188,12 @@ footer {
   }
 
   #text-description {
-    margin: 0px 40px 20px 40px;
-    font-size: 15px;
+    margin: 0px 30px 30px 40px;
+    font-size: 14px;
   }
 
   #btn-sign-up {
-    margin: 0 40px 40px 40px;
+    margin: 0 40px 30px 40px;
   }
 
   #box-three {
@@ -207,8 +207,8 @@ footer {
   }
   
   #box-three p {
-    margin: 0 70px 40px 40px;
+    margin: 0 60px 30px 40px;
     color: hsl(204, 43%, 93%);
-    font-size: 14px;
+    font-size: 13px;
   }
 }

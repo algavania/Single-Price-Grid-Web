@@ -211,4 +211,17 @@ footer {
     color: hsl(204, 43%, 93%);
     font-size: 13px;
   }
+
+  footer {
+    display: block;
+  }
+
+  footer p {
+    text-align: center;
+  }
+  
+  footer a {
+    text-decoration: underline;
+    color: black;
+  }
 }
